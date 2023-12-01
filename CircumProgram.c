@@ -1,11 +1,16 @@
-#include <studio.h>
-int main {
+#include <stdio.h>
+int main(){
+//watching the clippers game rightnow
 
 const double PI = 3.14159;
+double radius;
+double circumference;
+printf("\nenter radius of circle");
+scanf("%lf", &radius);
 
-double 
-double
-
+circumference =  2 * PI * radius;
+    
+printf("circumference: %lf", circumference);
 
     return 0;
 }
